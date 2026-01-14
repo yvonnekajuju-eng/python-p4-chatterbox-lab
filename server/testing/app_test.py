@@ -1,7 +1,6 @@
 from datetime import datetime
 
-from app import app
-from models import db, Message
+from app import app, db, Message
 
 class TestApp:
     '''Flask application in app.py'''
